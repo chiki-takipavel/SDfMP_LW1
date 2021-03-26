@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  Phonebook
+  
+  Created by Pavel Miskevich on 24.03.21.
+*/
+
+"delete" = "Удалить";
+"description" = "Описание";
+"email" = "Почта";
+"location" = "Местоположение";
+"general" = "Общее";
+"icon" = "Иконка";
+"language" = "Язык";
+"latitude" = "Широта";
+"longitude" = "Долгота";
+"note" = "Заметка";
+"log_out" = "Выйти";
+"givenname" = "Имя";
+"lastname" = "Фамилия";
+"patronymic" = "Отчество";
+"full_name" = "ФИО";
+"phone" = "Номер телефона";
+"pick_location" = "Выбрать локацию";
+"remove" = "Удалить";
+"select" = "Выбрать";
+"sign_in" = "Войти";
+"sign_up" = "Регистрация";
+"empty_collection" = "Тут ничего нет.";
+"video" = "Видео";
+"greetings" = "Привет!";
+"something_wrong" = "Что-то не так";
+"email_and_password_must_not_be_empty" = "Почта и пароль не должны быть пустыми";
+"settings" = "Настройки";
+"sys_lang" = "Системный";
+"en_lang" = "English";
+"ru_lang" = "Русский";
+"map" = "Карта";
+"phonebook" = "Телефонная книга";
+"contacts" = "Контакты";
+"back" = "Назад";
+"save" = "Сохранить";
+"new_contact" = "Новый контакт";
+"edit_contact" = "Изменить контакт";
+"password" = "Пароль";
+"theme" = "Тема";
+"light_theme" = "Светлая";
+"dark_theme" = "Темная";
+"list_style" = "Список";
+"table_style" = "Таблица";
+"style" = "Отображение";

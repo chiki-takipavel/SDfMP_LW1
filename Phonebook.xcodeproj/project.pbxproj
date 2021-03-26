@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1139501B260DE93700FE087A /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 1139501A260DE93700FE087A /* iPhoneNumberField */; };
+		11395034260E306A00FE087A /* ContactTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11395033260E306A00FE087A /* ContactTableCellView.swift */; };
+		115C4131260BAD4B00A62901 /* PhonebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4130260BAD4B00A62901 /* PhonebookApp.swift */; };
+		115C4138260BAD4C00A62901 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115C4137260BAD4C00A62901 /* Preview Assets.xcassets */; };
+		115C4170260BB75100A62901 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115C4147260BB75000A62901 /* Preview Assets.xcassets */; };
+		115C4172260BB75100A62901 /* PhonebookAssetFirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C414A260BB75000A62901 /* PhonebookAssetFirebaseManager.swift */; };
+		115C4173260BB75100A62901 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C414B260BB75000A62901 /* Session.swift */; };
+		115C4174260BB75100A62901 /* AuthDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C414C260BB75000A62901 /* AuthDataStorage.swift */; };
+		115C4175260BB75100A62901 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C414F260BB75000A62901 /* MainTabView.swift */; };
+		115C4176260BB75100A62901 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4151260BB75000A62901 /* SettingsView.swift */; };
+		115C4177260BB75100A62901 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4152260BB75000A62901 /* HomeView.swift */; };
+		115C4178260BB75100A62901 /* ContactsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4154260BB75000A62901 /* ContactsListView.swift */; };
+		115C4179260BB75100A62901 /* PhonebookUniversalCEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4155260BB75000A62901 /* PhonebookUniversalCEView.swift */; };
+		115C417A260BB75100A62901 /* PhonebookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4156260BB75000A62901 /* PhonebookDetailsView.swift */; };
+		115C417B260BB75100A62901 /* ContactCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4157260BB75000A62901 /* ContactCellView.swift */; };
+		115C417C260BB75100A62901 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4159260BB75000A62901 /* MapView.swift */; };
+		115C417D260BB75100A62901 /* AuthUniversalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C415B260BB75000A62901 /* AuthUniversalView.swift */; };
+		115C417E260BB75100A62901 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C415C260BB75000A62901 /* AuthView.swift */; };
+		115C417F260BB75100A62901 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C415E260BB75000A62901 /* MultilineTextField.swift */; };
+		115C4180260BB75100A62901 /* GoogleMapsLocationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C415F260BB75000A62901 /* GoogleMapsLocationPickerView.swift */; };
+		115C4181260BB75100A62901 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4160260BB75000A62901 /* ImagePickerView.swift */; };
+		115C4182260BB75100A62901 /* VideoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4161260BB75000A62901 /* VideoPickerView.swift */; };
+		115C4183260BB75100A62901 /* PhonebookIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4162260BB75000A62901 /* PhonebookIconView.swift */; };
+		115C4184260BB75100A62901 /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4163260BB75000A62901 /* GoogleMapsView.swift */; };
+		115C4185260BB75100A62901 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4164260BB75000A62901 /* ContentView.swift */; };
+		115C4186260BB75100A62901 /* SettingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4167260BB75100A62901 /* SettingsData.swift */; };
+		115C4187260BB75100A62901 /* UserLocale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4168260BB75100A62901 /* UserLocale.swift */; };
+		115C4188260BB75100A62901 /* PhonebookDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C416A260BB75100A62901 /* PhonebookDashboard.swift */; };
+		115C4189260BB75100A62901 /* PhonebookAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C416B260BB75100A62901 /* PhonebookAsset.swift */; };
+		115C418A260BB75100A62901 /* PhonebookEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C416C260BB75100A62901 /* PhonebookEvent.swift */; };
+		115C418B260BB75100A62901 /* CloudFileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C416D260BB75100A62901 /* CloudFileData.swift */; };
+		115C418C260BB75100A62901 /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C416F260BB75100A62901 /* AuthData.swift */; };
+		115C4191260BB80000A62901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115C4190260BB80000A62901 /* Assets.xcassets */; };
+		115C4196260BBCFC00A62901 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 115C4194260BBCFC00A62901 /* Localizable.strings */; };
+		115C419B260BBD0F00A62901 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 115C4199260BBD0F00A62901 /* Localizable.strings */; };
+		119D80B7260BEB8A00AA329E /* AVURLAssetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D80B2260BEB8A00AA329E /* AVURLAssetExtensions.swift */; };
+		119D80B8260BEB8A00AA329E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D80B3260BEB8A00AA329E /* Constants.swift */; };
+		119D80B9260BEB8A00AA329E /* GoogleMapsAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D80B4260BEB8A00AA329E /* GoogleMapsAssistant.swift */; };
+		119D80BA260BEB8A00AA329E /* NSErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D80B5260BEB8A00AA329E /* NSErrorExtension.swift */; };
+		119D80BB260BEB8A00AA329E /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D80B6260BEB8A00AA329E /* UIImageExtensions.swift */; };
+		119D811D260CBAD100AA329E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 119D811C260CBAD100AA329E /* GoogleService-Info.plist */; };
+		BEB2D299BAB9CCE44C70278C /* Pods_Phonebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA289CA0CFC842DE96777C4 /* Pods_Phonebook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AA289CA0CFC842DE96777C4 /* Pods_Phonebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phonebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBF9720E3DBF82A71F5C0E0 /* Pods-Phonebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonebook.release.xcconfig"; path = "Target Support Files/Pods-Phonebook/Pods-Phonebook.release.xcconfig"; sourceTree = "<group>"; };
+		11395033260E306A00FE087A /* ContactTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableCellView.swift; sourceTree = "<group>"; };
+		115C412D260BAD4B00A62901 /* Phonebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phonebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115C4130260BAD4B00A62901 /* PhonebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonebookApp.swift; sourceTree = "<group>"; };
+		115C4137260BAD4C00A62901 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		115C4139260BAD4C00A62901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115C4147260BB75000A62901 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		115C414A260BB75000A62901 /* PhonebookAssetFirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonebookAssetFirebaseManager.swift; sourceTree = "<group>"; };
+		115C414B260BB75000A62901 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		115C414C260BB75000A62901 /* AuthDataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthDataStorage.swift; sourceTree = "<group>"; };
+		115C414F260BB75000A62901 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		115C4151260BB75000A62901 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		115C4152260BB75000A62901 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		115C4154260BB75000A62901 /* ContactsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsListView.swift; sourceTree = "<group>"; };
+		115C4155260BB75000A62901 /* PhonebookUniversalCEView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonebookUniversalCEView.swift; sourceTree = "<group>"; };
+		115C4156260BB75000A62901 /* PhonebookDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonebookDetailsView.swift; sourceTree = "<group>"; };
+		115C4157260BB75000A62901 /* ContactCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCellView.swift; sourceTree = "<group>"; };
+		115C4159260BB75000A62901 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		115C415B260BB75000A62901 /* AuthUniversalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUniversalView.swift; sourceTree = "<group>"; };
+		115C415C260BB75000A62901 /* AuthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		115C415E260BB75000A62901 /* MultilineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		115C415F260BB75000A62901 /* GoogleMapsLocationPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsLocationPickerView.swift; sourceTree = "<group>"; };
+		115C4160260BB75000A62901 /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		115C4161260BB75000A62901 /* VideoPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPickerView.swift; sourceTree = "<group>"; };
+		115C4162260BB75000A62901 /* PhonebookIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonebookIconView.swift; sourceTree = "<group>"; };
+		115C4163260BB75000A62901 /* GoogleMapsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		115C4164260BB75000A62901 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		115C4167260BB75100A62901 /* SettingsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsData.swift; sourceTree = "<group>"; };
+		115C4168260BB75100A62901 /* UserLocale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocale.swift; sourceTree = "<group>"; };
+		115C416A260BB75100A62901 /* PhonebookDashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonebookDashboard.swift; sourceTree = "<group>"; };
+		115C416B260BB75100A62901 /* PhonebookAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonebookAsset.swift; sourceTree = "<group>"; };
+		115C416C260BB75100A62901 /* PhonebookEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonebookEvent.swift; sourceTree = "<group>"; };
+		115C416D260BB75100A62901 /* CloudFileData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudFileData.swift; sourceTree = "<group>"; };
+		115C416F260BB75100A62901 /* AuthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
+		115C4190260BB80000A62901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		115C4195260BBCFC00A62901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		115C419A260BBD0F00A62901 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Localizable.strings; sourceTree = "<group>"; };
+		119D80B2260BEB8A00AA329E /* AVURLAssetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVURLAssetExtensions.swift; sourceTree = "<group>"; };
+		119D80B3260BEB8A00AA329E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		119D80B4260BEB8A00AA329E /* GoogleMapsAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsAssistant.swift; sourceTree = "<group>"; };
+		119D80B5260BEB8A00AA329E /* NSErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorExtension.swift; sourceTree = "<group>"; };
+		119D80B6260BEB8A00AA329E /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		119D811C260CBAD100AA329E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15693D17682D98B338DAB84B /* Pods-Phonebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonebook.debug.xcconfig"; path = "Target Support Files/Pods-Phonebook/Pods-Phonebook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115C412A260BAD4B00A62901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB2D299BAB9CCE44C70278C /* Pods_Phonebook.framework in Frameworks */,
+				1139501B260DE93700FE087A /* iPhoneNumberField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115C4124260BAD4B00A62901 = {
+			isa = PBXGroup;
+			children = (
+				115C412F260BAD4B00A62901 /* Phonebook */,
+				115C412E260BAD4B00A62901 /* Products */,
+				D913E1881202FF2979DAC679 /* Frameworks */,
+				C0E987FD4CF3ED2CE3ACD56D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		115C412E260BAD4B00A62901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115C412D260BAD4B00A62901 /* Phonebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115C412F260BAD4B00A62901 /* Phonebook */ = {
+			isa = PBXGroup;
+			children = (
+				119D811C260CBAD100AA329E /* GoogleService-Info.plist */,
+				119D80B1260BEB8A00AA329E /* Utils */,
+				115C4198260BBD0F00A62901 /* ru.lproj */,
+				115C4193260BBCFC00A62901 /* en.lproj */,
+				115C4190260BB80000A62901 /* Assets.xcassets */,
+				115C4149260BB75000A62901 /* Api */,
+				115C4165260BB75100A62901 /* Models */,
+				115C4146260BB75000A62901 /* Preview Content */,
+				115C414D260BB75000A62901 /* Views */,
+				115C4130260BAD4B00A62901 /* PhonebookApp.swift */,
+				115C4139260BAD4C00A62901 /* Info.plist */,
+				115C4136260BAD4C00A62901 /* Preview Content */,
+			);
+			path = Phonebook;
+			sourceTree = "<group>";
+		};
+		115C4136260BAD4C00A62901 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				115C4137260BAD4C00A62901 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		115C4146260BB75000A62901 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				115C4147260BB75000A62901 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		115C4149260BB75000A62901 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				115C414A260BB75000A62901 /* PhonebookAssetFirebaseManager.swift */,
+				115C414B260BB75000A62901 /* Session.swift */,
+				115C414C260BB75000A62901 /* AuthDataStorage.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		115C414D260BB75000A62901 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				115C414E260BB75000A62901 /* Home */,
+				115C415A260BB75000A62901 /* Auth */,
+				115C415D260BB75000A62901 /* Utils */,
+				115C4164260BB75000A62901 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		115C414E260BB75000A62901 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				115C414F260BB75000A62901 /* MainTabView.swift */,
+				115C4150260BB75000A62901 /* Settings */,
+				115C4152260BB75000A62901 /* HomeView.swift */,
+				115C4153260BB75000A62901 /* Phonebook */,
+				115C4158260BB75000A62901 /* Map */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		115C4150260BB75000A62901 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				115C4151260BB75000A62901 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		115C4153260BB75000A62901 /* Phonebook */ = {
+			isa = PBXGroup;
+			children = (
+				115C4154260BB75000A62901 /* ContactsListView.swift */,
+				115C4155260BB75000A62901 /* PhonebookUniversalCEView.swift */,
+				115C4156260BB75000A62901 /* PhonebookDetailsView.swift */,
+				115C4157260BB75000A62901 /* ContactCellView.swift */,
+				11395033260E306A00FE087A /* ContactTableCellView.swift */,
+			);
+			path = Phonebook;
+			sourceTree = "<group>";
+		};
+		115C4158260BB75000A62901 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				115C4159260BB75000A62901 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		115C415A260BB75000A62901 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				115C415B260BB75000A62901 /* AuthUniversalView.swift */,
+				115C415C260BB75000A62901 /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		115C415D260BB75000A62901 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				115C415E260BB75000A62901 /* MultilineTextField.swift */,
+				115C415F260BB75000A62901 /* GoogleMapsLocationPickerView.swift */,
+				115C4160260BB75000A62901 /* ImagePickerView.swift */,
+				115C4161260BB75000A62901 /* VideoPickerView.swift */,
+				115C4162260BB75000A62901 /* PhonebookIconView.swift */,
+				115C4163260BB75000A62901 /* GoogleMapsView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		115C4165260BB75100A62901 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				115C4166260BB75100A62901 /* Settings */,
+				115C4169260BB75100A62901 /* Phonebook */,
+				115C416E260BB75100A62901 /* Auth */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		115C4166260BB75100A62901 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				115C4167260BB75100A62901 /* SettingsData.swift */,
+				115C4168260BB75100A62901 /* UserLocale.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		115C4169260BB75100A62901 /* Phonebook */ = {
+			isa = PBXGroup;
+			children = (
+				115C416A260BB75100A62901 /* PhonebookDashboard.swift */,
+				115C416B260BB75100A62901 /* PhonebookAsset.swift */,
+				115C416C260BB75100A62901 /* PhonebookEvent.swift */,
+				115C416D260BB75100A62901 /* CloudFileData.swift */,
+			);
+			path = Phonebook;
+			sourceTree = "<group>";
+		};
+		115C416E260BB75100A62901 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				115C416F260BB75100A62901 /* AuthData.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		115C4193260BBCFC00A62901 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				115C4194260BBCFC00A62901 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		115C4198260BBD0F00A62901 /* ru.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				115C4199260BBD0F00A62901 /* Localizable.strings */,
+			);
+			path = ru.lproj;
+			sourceTree = "<group>";
+		};
+		119D80B1260BEB8A00AA329E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				119D80B2260BEB8A00AA329E /* AVURLAssetExtensions.swift */,
+				119D80B3260BEB8A00AA329E /* Constants.swift */,
+				119D80B4260BEB8A00AA329E /* GoogleMapsAssistant.swift */,
+				119D80B5260BEB8A00AA329E /* NSErrorExtension.swift */,
+				119D80B6260BEB8A00AA329E /* UIImageExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C0E987FD4CF3ED2CE3ACD56D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15693D17682D98B338DAB84B /* Pods-Phonebook.debug.xcconfig */,
+				0DBF9720E3DBF82A71F5C0E0 /* Pods-Phonebook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D913E1881202FF2979DAC679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AA289CA0CFC842DE96777C4 /* Pods_Phonebook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115C412C260BAD4B00A62901 /* Phonebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115C413C260BAD4C00A62901 /* Build configuration list for PBXNativeTarget "Phonebook" */;
+			buildPhases = (
+				1417C8605FEE820A1339FEAB /* [CP] Check Pods Manifest.lock */,
+				115C4129260BAD4B00A62901 /* Sources */,
+				115C412A260BAD4B00A62901 /* Frameworks */,
+				115C412B260BAD4B00A62901 /* Resources */,
+				B4578CF98DFFBFBF1F30ECF9 /* [CP] Embed Pods Frameworks */,
+				87D9B74E2640AFC7317FA0A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phonebook;
+			packageProductDependencies = (
+				1139501A260DE93700FE087A /* iPhoneNumberField */,
+			);
+			productName = Phonebook;
+			productReference = 115C412D260BAD4B00A62901 /* Phonebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115C4125260BAD4B00A62901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					115C412C260BAD4B00A62901 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 115C4128260BAD4B00A62901 /* Build configuration list for PBXProject "Phonebook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 115C4124260BAD4B00A62901;
+			packageReferences = (
+				11395019260DE93700FE087A /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
+			productRefGroup = 115C412E260BAD4B00A62901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115C412C260BAD4B00A62901 /* Phonebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115C412B260BAD4B00A62901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115C419B260BBD0F00A62901 /* Localizable.strings in Resources */,
+				115C4138260BAD4C00A62901 /* Preview Assets.xcassets in Resources */,
+				115C4196260BBCFC00A62901 /* Localizable.strings in Resources */,
+				115C4191260BB80000A62901 /* Assets.xcassets in Resources */,
+				115C4170260BB75100A62901 /* Preview Assets.xcassets in Resources */,
+				119D811D260CBAD100AA329E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1417C8605FEE820A1339FEAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Phonebook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D9B74E2640AFC7317FA0A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phonebook/Pods-Phonebook-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phonebook/Pods-Phonebook-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Phonebook/Pods-Phonebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4578CF98DFFBFBF1F30ECF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phonebook/Pods-Phonebook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phonebook/Pods-Phonebook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Phonebook/Pods-Phonebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115C4129260BAD4B00A62901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115C4176260BB75100A62901 /* SettingsView.swift in Sources */,
+				115C4173260BB75100A62901 /* Session.swift in Sources */,
+				115C4174260BB75100A62901 /* AuthDataStorage.swift in Sources */,
+				115C4181260BB75100A62901 /* ImagePickerView.swift in Sources */,
+				115C4188260BB75100A62901 /* PhonebookDashboard.swift in Sources */,
+				119D80B8260BEB8A00AA329E /* Constants.swift in Sources */,
+				115C417C260BB75100A62901 /* MapView.swift in Sources */,
+				115C4180260BB75100A62901 /* GoogleMapsLocationPickerView.swift in Sources */,
+				115C4183260BB75100A62901 /* PhonebookIconView.swift in Sources */,
+				115C418C260BB75100A62901 /* AuthData.swift in Sources */,
+				115C4131260BAD4B00A62901 /* PhonebookApp.swift in Sources */,
+				115C4177260BB75100A62901 /* HomeView.swift in Sources */,
+				119D80BB260BEB8A00AA329E /* UIImageExtensions.swift in Sources */,
+				115C418B260BB75100A62901 /* CloudFileData.swift in Sources */,
+				115C4172260BB75100A62901 /* PhonebookAssetFirebaseManager.swift in Sources */,
+				115C417D260BB75100A62901 /* AuthUniversalView.swift in Sources */,
+				115C4185260BB75100A62901 /* ContentView.swift in Sources */,
+				115C4175260BB75100A62901 /* MainTabView.swift in Sources */,
+				115C4186260BB75100A62901 /* SettingsData.swift in Sources */,
+				119D80B9260BEB8A00AA329E /* GoogleMapsAssistant.swift in Sources */,
+				115C4178260BB75100A62901 /* ContactsListView.swift in Sources */,
+				115C4182260BB75100A62901 /* VideoPickerView.swift in Sources */,
+				115C418A260BB75100A62901 /* PhonebookEvent.swift in Sources */,
+				11395034260E306A00FE087A /* ContactTableCellView.swift in Sources */,
+				115C4184260BB75100A62901 /* GoogleMapsView.swift in Sources */,
+				115C4189260BB75100A62901 /* PhonebookAsset.swift in Sources */,
+				115C4187260BB75100A62901 /* UserLocale.swift in Sources */,
+				119D80BA260BEB8A00AA329E /* NSErrorExtension.swift in Sources */,
+				115C417E260BB75100A62901 /* AuthView.swift in Sources */,
+				115C417A260BB75100A62901 /* PhonebookDetailsView.swift in Sources */,
+				115C4179260BB75100A62901 /* PhonebookUniversalCEView.swift in Sources */,
+				119D80B7260BEB8A00AA329E /* AVURLAssetExtensions.swift in Sources */,
+				115C417B260BB75100A62901 /* ContactCellView.swift in Sources */,
+				115C417F260BB75100A62901 /* MultilineTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		115C4194260BBCFC00A62901 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115C4195260BBCFC00A62901 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		115C4199260BBD0F00A62901 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115C419A260BBD0F00A62901 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115C413A260BAD4C00A62901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115C413B260BAD4C00A62901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115C413D260BAD4C00A62901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15693D17682D98B338DAB84B /* Pods-Phonebook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Phonebook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Phonebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pavel-Miskevich.Phonebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		115C413E260BAD4C00A62901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBF9720E3DBF82A71F5C0E0 /* Pods-Phonebook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Phonebook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Phonebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pavel-Miskevich.Phonebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115C4128260BAD4B00A62901 /* Build configuration list for PBXProject "Phonebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115C413A260BAD4C00A62901 /* Debug */,
+				115C413B260BAD4C00A62901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115C413C260BAD4C00A62901 /* Build configuration list for PBXNativeTarget "Phonebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115C413D260BAD4C00A62901 /* Debug */,
+				115C413E260BAD4C00A62901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11395019260DE93700FE087A /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1139501A260DE93700FE087A /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11395019260DE93700FE087A /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 115C4125260BAD4B00A62901 /* Project object */;
+}

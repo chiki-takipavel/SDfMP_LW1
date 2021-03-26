@@ -1,0 +1,51 @@
+/*
+  Localizable.strings
+  Phonebook
+  
+  Created by Pavel Miskevich on 24.03.21.
+*/
+
+"delete" = "Delete";
+"description" = "Description";
+"email" = "Email";
+"location" = "Location";
+"general" = "General";
+"icon" = "Icon";
+"language" = "Language";
+"latitude" = "Latitude";
+"longitude" = "Longitude";
+"note" = "Note";
+"log_out" = "Log Out";
+"givenname" = "Given Name";
+"lastname" = "Last Name";
+"patronymic" = "Patronymic";
+"full_name" = "Full Name";
+"phone" = "Phone number";
+"pick_location" = "Pick location";
+"remove" = "Remove";
+"select" = "Select";
+"sign_in" = "Sign In";
+"sign_up" = "Sign Up";
+"empty_collection" = "There is no contacts.";
+"video" = "Video";
+"greetings" = "Welcome!";
+"something_wrong" = "Something went wrong";
+"email_and_password_must_not_be_empty" = "Email and password must be not empty";
+"settings" = "Settings";
+"sys_lang" = "System";
+"en_lang" = "English";
+"ru_lang" = "Русский";
+"map" = "Map";
+"phonebook" = "Phonebook";
+"contacts" = "Contacts";
+"back" = "Back";
+"save" = "Save";
+"new_contact" = "New Contact";
+"edit_contact" = "Edit Contact";
+"password" = "Password";
+"theme" = "Theme";
+"light_theme" = "Light";
+"dark_theme" = "Dark";
+"list_style" = "List";
+"table_style" = "Table";
+"style" = "Style";
