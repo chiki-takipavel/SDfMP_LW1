@@ -48,6 +48,7 @@
 		119D80BA260BEB8A00AA329E /* NSErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D80B5260BEB8A00AA329E /* NSErrorExtension.swift */; };
 		119D80BB260BEB8A00AA329E /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D80B6260BEB8A00AA329E /* UIImageExtensions.swift */; };
 		119D811D260CBAD100AA329E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 119D811C260CBAD100AA329E /* GoogleService-Info.plist */; };
+		11B65938260EA4D800ACE3D8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 11B65937260EA4D800ACE3D8 /* .gitignore */; };
 		BEB2D299BAB9CCE44C70278C /* Pods_Phonebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA289CA0CFC842DE96777C4 /* Pods_Phonebook.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +97,7 @@
 		119D80B5260BEB8A00AA329E /* NSErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorExtension.swift; sourceTree = "<group>"; };
 		119D80B6260BEB8A00AA329E /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		119D811C260CBAD100AA329E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11B65937260EA4D800ACE3D8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		15693D17682D98B338DAB84B /* Pods-Phonebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonebook.debug.xcconfig"; path = "Target Support Files/Pods-Phonebook/Pods-Phonebook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 		115C4124260BAD4B00A62901 = {
 			isa = PBXGroup;
 			children = (
+				11B65937260EA4D800ACE3D8 /* .gitignore */,
 				115C412F260BAD4B00A62901 /* Phonebook */,
 				115C412E260BAD4B00A62901 /* Products */,
 				D913E1881202FF2979DAC679 /* Frameworks */,
@@ -399,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				115C419B260BBD0F00A62901 /* Localizable.strings in Resources */,
+				11B65938260EA4D800ACE3D8 /* .gitignore in Resources */,
 				115C4138260BAD4C00A62901 /* Preview Assets.xcassets in Resources */,
 				115C4196260BBCFC00A62901 /* Localizable.strings in Resources */,
 				115C4191260BB80000A62901 /* Assets.xcassets in Resources */,

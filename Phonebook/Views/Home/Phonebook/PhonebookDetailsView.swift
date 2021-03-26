@@ -101,7 +101,7 @@ struct PhonebookDetailsView: View {
                 isPresented: $showPhonebookEditor)
         })
         .sheet(isPresented: $showFullPhoto, content: {
-            PhonebookPhotoView(asset.iconFileData?.downloadURL, 110)
+            //PhonebookPhotoView(asset.iconFileData?.downloadURL, 110)
         })
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
