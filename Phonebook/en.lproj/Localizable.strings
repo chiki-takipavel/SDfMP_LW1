@@ -6,7 +6,7 @@
 */
 
 "delete" = "Delete";
-"description" = "Description";
+"description" = "Additional information";
 "email" = "Email";
 "location" = "Location";
 "general" = "General";
@@ -28,7 +28,7 @@
 "sign_up" = "Sign Up";
 "empty_collection" = "There is no contacts.";
 "video" = "Video";
-"greetings" = "Welcome!";
+"greetings" = "Welcome";
 "something_wrong" = "Something went wrong";
 "email_and_password_must_not_be_empty" = "Email and password must be not empty";
 "settings" = "Settings";

@@ -27,6 +27,9 @@ struct PhonebookDetailsView: View {
                     .onTapGesture {
                         showFullPhoto.toggle()
                     }
+                    .sheet(isPresented: $showFullPhoto, content: {
+                        PhonebookPhotoView(asset.iconFileData?.downloadURL)
+                    })
                 Spacer()
             }
             
@@ -99,9 +102,6 @@ struct PhonebookDetailsView: View {
                     presentationMode.wrappedValue.dismiss()
                 },
                 isPresented: $showPhonebookEditor)
-        })
-        .sheet(isPresented: $showFullPhoto, content: {
-            //PhonebookPhotoView(asset.iconFileData?.downloadURL, 110)
         })
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {

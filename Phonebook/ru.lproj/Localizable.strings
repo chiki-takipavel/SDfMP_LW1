@@ -6,7 +6,7 @@
 */
 
 "delete" = "Удалить";
-"description" = "Описание";
+"description" = "Дополнительная информация";
 "email" = "Почта";
 "location" = "Местоположение";
 "general" = "Общее";
@@ -28,7 +28,7 @@
 "sign_up" = "Регистрация";
 "empty_collection" = "Тут ничего нет.";
 "video" = "Видео";
-"greetings" = "Привет!";
+"greetings" = "Привет";
 "something_wrong" = "Что-то не так";
 "email_and_password_must_not_be_empty" = "Почта и пароль не должны быть пустыми";
 "settings" = "Настройки";

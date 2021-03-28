@@ -21,7 +21,7 @@
 		115C4178260BB75100A62901 /* ContactsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4154260BB75000A62901 /* ContactsListView.swift */; };
 		115C4179260BB75100A62901 /* PhonebookUniversalCEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4155260BB75000A62901 /* PhonebookUniversalCEView.swift */; };
 		115C417A260BB75100A62901 /* PhonebookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4156260BB75000A62901 /* PhonebookDetailsView.swift */; };
-		115C417B260BB75100A62901 /* ContactCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4157260BB75000A62901 /* ContactCellView.swift */; };
+		115C417B260BB75100A62901 /* ContactListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4157260BB75000A62901 /* ContactListCellView.swift */; };
 		115C417C260BB75100A62901 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4159260BB75000A62901 /* MapView.swift */; };
 		115C417D260BB75100A62901 /* AuthUniversalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C415B260BB75000A62901 /* AuthUniversalView.swift */; };
 		115C417E260BB75100A62901 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C415C260BB75000A62901 /* AuthView.swift */; };
@@ -49,6 +49,7 @@
 		119D80BB260BEB8A00AA329E /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119D80B6260BEB8A00AA329E /* UIImageExtensions.swift */; };
 		119D811D260CBAD100AA329E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 119D811C260CBAD100AA329E /* GoogleService-Info.plist */; };
 		11B65938260EA4D800ACE3D8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 11B65937260EA4D800ACE3D8 /* .gitignore */; };
+		11CF47952610938E0034B862 /* PhonebookPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF47942610938E0034B862 /* PhonebookPhotoView.swift */; };
 		BEB2D299BAB9CCE44C70278C /* Pods_Phonebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA289CA0CFC842DE96777C4 /* Pods_Phonebook.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,7 +71,7 @@
 		115C4154260BB75000A62901 /* ContactsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsListView.swift; sourceTree = "<group>"; };
 		115C4155260BB75000A62901 /* PhonebookUniversalCEView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonebookUniversalCEView.swift; sourceTree = "<group>"; };
 		115C4156260BB75000A62901 /* PhonebookDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonebookDetailsView.swift; sourceTree = "<group>"; };
-		115C4157260BB75000A62901 /* ContactCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCellView.swift; sourceTree = "<group>"; };
+		115C4157260BB75000A62901 /* ContactListCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListCellView.swift; sourceTree = "<group>"; };
 		115C4159260BB75000A62901 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		115C415B260BB75000A62901 /* AuthUniversalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUniversalView.swift; sourceTree = "<group>"; };
 		115C415C260BB75000A62901 /* AuthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		119D80B6260BEB8A00AA329E /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		119D811C260CBAD100AA329E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		11B65937260EA4D800ACE3D8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		11CF47942610938E0034B862 /* PhonebookPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonebookPhotoView.swift; sourceTree = "<group>"; };
 		15693D17682D98B338DAB84B /* Pods-Phonebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonebook.debug.xcconfig"; path = "Target Support Files/Pods-Phonebook/Pods-Phonebook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,7 +217,7 @@
 				115C4154260BB75000A62901 /* ContactsListView.swift */,
 				115C4155260BB75000A62901 /* PhonebookUniversalCEView.swift */,
 				115C4156260BB75000A62901 /* PhonebookDetailsView.swift */,
-				115C4157260BB75000A62901 /* ContactCellView.swift */,
+				115C4157260BB75000A62901 /* ContactListCellView.swift */,
 				11395033260E306A00FE087A /* ContactTableCellView.swift */,
 			);
 			path = Phonebook;
@@ -247,6 +249,7 @@
 				115C4161260BB75000A62901 /* VideoPickerView.swift */,
 				115C4162260BB75000A62901 /* PhonebookIconView.swift */,
 				115C4163260BB75000A62901 /* GoogleMapsView.swift */,
+				11CF47942610938E0034B862 /* PhonebookPhotoView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 				115C4186260BB75100A62901 /* SettingsData.swift in Sources */,
 				119D80B9260BEB8A00AA329E /* GoogleMapsAssistant.swift in Sources */,
 				115C4178260BB75100A62901 /* ContactsListView.swift in Sources */,
+				11CF47952610938E0034B862 /* PhonebookPhotoView.swift in Sources */,
 				115C4182260BB75100A62901 /* VideoPickerView.swift in Sources */,
 				115C418A260BB75100A62901 /* PhonebookEvent.swift in Sources */,
 				11395034260E306A00FE087A /* ContactTableCellView.swift in Sources */,
@@ -509,7 +513,7 @@
 				115C417A260BB75100A62901 /* PhonebookDetailsView.swift in Sources */,
 				115C4179260BB75100A62901 /* PhonebookUniversalCEView.swift in Sources */,
 				119D80B7260BEB8A00AA329E /* AVURLAssetExtensions.swift in Sources */,
-				115C417B260BB75100A62901 /* ContactCellView.swift in Sources */,
+				115C417B260BB75100A62901 /* ContactListCellView.swift in Sources */,
 				115C417F260BB75100A62901 /* MultilineTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

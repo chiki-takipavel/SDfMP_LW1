@@ -34,7 +34,7 @@ struct PhonebookIconView: View {
             .aspectRatio(contentMode: .fit)
             .scaleEffect(0.5)
             .frame(width: size, height: size)
-            .overlay(Circle().stroke(Color.blue.opacity(0.5), lineWidth: 2))
+            .overlay(Circle().stroke(Color.pink.opacity(0.5), lineWidth: 2))
     }
     
     var body: some View {
@@ -55,7 +55,7 @@ struct PhonebookIconView: View {
                             .aspectRatio(contentMode: .fill)
                             .frame(width: size, height: size)
                             .clipShape(Circle())
-                            .overlay(Circle().stroke(Color.blue.opacity(0.5), lineWidth: 2))
+                            .overlay(Circle().stroke(Color.pink.opacity(0.5), lineWidth: 2))
                      }
             )
         } else {
