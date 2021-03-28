@@ -75,8 +75,10 @@ struct PhonebookDetailsView: View {
                 Section(header:
                             Text("location")
                 ) {
-                    Text(locationData.note)
-                        .multilineTextAlignment(.leading)
+                    if !locationData.note.isEmpty {
+                        Text(locationData.note)
+                            .multilineTextAlignment(.leading)
+                    }
                     HStack {
                         Text("latitude")
                         Spacer()
