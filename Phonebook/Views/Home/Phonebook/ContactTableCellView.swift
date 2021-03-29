@@ -26,6 +26,7 @@ struct ContactTableCellView: View {
                 .foregroundColor(.secondary)
         }
         .padding()
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .overlay(
             RoundedRectangle(cornerRadius: Constants.uiCornerRadius)
                 .stroke(Color.blue.opacity(0.8), lineWidth: 3)

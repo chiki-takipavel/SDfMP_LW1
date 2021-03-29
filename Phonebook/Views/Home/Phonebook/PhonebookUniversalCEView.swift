@@ -131,6 +131,7 @@ struct PhonebookUniversalCEView: View {
                             .flagHidden(false)
                             .prefixHidden(false)
                             .flagSelectable(true)
+                            .maximumDigits(9)
                             .placeholderColor(.red)
                             .clearButtonMode(.whileEditing)
                             .onClear { _ in isEditing.toggle() }

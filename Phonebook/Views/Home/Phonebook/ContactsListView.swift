@@ -19,7 +19,7 @@ struct ContactsListView: View {
             ScrollView {
                 if let assets = session.getLocalAssets(), !assets.isEmpty {
                     if isTableStyle {
-                        let columns = [GridItem(.flexible()), GridItem(.flexible())]
+                        let columns = Array(repeating: GridItem(.flexible(), spacing: 12), count: 2)
                         LazyVGrid(columns: columns) {
                             ForEach(assets) { asset in
                                 NavigationLink(destination: PhonebookDetailsView(asset: asset)) {
